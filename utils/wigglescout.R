@@ -41,8 +41,6 @@ iapez = GRanges(
   )
 )
 
-
-
 create_scatter = function(bigwig1 = minutes[1], bigwig2 = minutes[13]) {
   name1 = strsplit(strsplit(bigwig1, "../data/MINUTE/bw/")[[1]][2],
                    ".mm9.scaled.bw")[[1]][1]
